@@ -16,18 +16,18 @@
     "hidden": false
   },
   "criteria": {
-    "sign_placed": {
-      "trigger": "minecraft:placed_block",
+    "log_obtained": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "#minecraft:signs"
+            "tag": "#minecraft:logs"
           }
         ]
       }
     }
   },
   "requirements": [
-    ["sign_placed"]
+    ["log_obtained"]
   ]
 }
