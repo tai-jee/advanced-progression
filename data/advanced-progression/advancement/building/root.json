@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "blocks": "#minecraft:logs"
+            "items": "#minecraft:logs"
           }
         ]
       }
