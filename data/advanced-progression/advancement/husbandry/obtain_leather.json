@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "translate": "advancement.adv-adv.obtain_leather"
+    },
+    "description": {
+      "translate": "advancement.adv-adv.obtain_leather.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leather_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:leather"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["leather_obtained"]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.craft_diamond_hoe"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.craft_diamond_hoe.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_hoe_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_hoe"
+      }
+    }
+  },
+  "requirements": [
+    ["diamond_hoe_crafted"]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "advanced-progression:redstone/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:lever"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.use_redstone_switch"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.use_redstone_switch.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lever_used": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": ["minecraft:lever"]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "button_used": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:buttons"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["lever_used", "button_used"]
+  ]
+}

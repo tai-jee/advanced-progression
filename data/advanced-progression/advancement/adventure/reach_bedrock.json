@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.reach_bedrock"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.reach_bedrock.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bedrock_reached": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": -60
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["bedrock_reached"]
+  ]
+}

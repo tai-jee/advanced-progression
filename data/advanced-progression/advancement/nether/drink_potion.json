@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:nether/brew_potion",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.drink_potion"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.drink_potion.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "potion_drank": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:potion"]
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["potion_drank"]
+  ]
+}

@@ -1,0 +1,13 @@
+
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "advanced-progression"
+version = "1.0.0"
+displayName = "Advanced Progression"
+authors = "Taijee"
+description = '''
+Adds a variety of vanilla-style advancements.
+'''

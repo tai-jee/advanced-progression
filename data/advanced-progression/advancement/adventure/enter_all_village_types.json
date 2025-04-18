@@ -1,0 +1,77 @@
+{
+  "parent": "advanced-progression:adventure/enter_village",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.enter_all_village_types"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.enter_all_village_types.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "village_desert_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_desert"
+          }
+        }
+      }
+    },
+    "village_plains_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_plains"
+          }
+        }
+      }
+    },
+    "village_savanna_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_savanna"
+          }
+        }
+      }
+    },
+    "village_snowy_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_snowy"
+          }
+        }
+      }
+    },
+    "village_taiga_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_taiga"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["village_desert_entered"],
+    ["village_plains_entered"],
+    ["village_savanna_entered"],
+    ["village_snowy_entered"],
+    ["village_taiga_entered"]
+  ]
+}

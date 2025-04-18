@@ -1,0 +1,33 @@
+{
+  "parent": "advanced-progression:building/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sign"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.place_sign"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.place_sign.desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "log_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "#minecraft:logs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["log_obtained"]
+  ]
+}

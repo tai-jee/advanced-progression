@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "background": "minecraft:block/oak_log",
+    "title": {
+      "translate": "advancement.advanced-progression.building_root"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.building_root.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sign_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "items": [
+          {
+            "tag": "#minecraft:signs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["sign_placed"]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "advanced-progression:adventure/kill_creeper",
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.obtain_tnt"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.obtain_tnt.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tnt_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:tnt"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["tnt_obtained"]
+  ]
+}

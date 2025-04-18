@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "authors": ["Taijee"],
+  "environment": "*",
+  "depends": {"fabric-api-base": "*"},
+  "name": "Advanced Progression",
+  "id": "advanced-progression",
+  "version": "1.0.0",
+  "description": "Adds a variety of vanilla-style advancements.",
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.obtain_powder_snow_bucket"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.obtain_powder_snow_bucket.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "powder_snow_bucket_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:powder_snow_bucket"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["powder_snow_bucket_obtained"]
+  ]
+}

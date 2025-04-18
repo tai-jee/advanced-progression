@@ -1,0 +1,108 @@
+{
+  "parent": "advanced-progression:building/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.obtain_all_stone"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.obtain_all_stone.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "andesite_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:andesite"]
+          }
+        ]
+      }
+    },
+    "cobbled_deepslate_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:cobbled_deepslate"]
+          }
+        ]
+      }
+    },
+    "cobblestone_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:cobblestone"]
+          }
+        ]
+      }
+    },
+    "deepslate_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:deepslate"]
+          }
+        ]
+      }
+    },
+    "diorite_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diorite"]
+          }
+        ]
+      }
+    },
+    "granite_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:granite"]
+          }
+        ]
+      }
+    },
+    "stone_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:stone"]
+          }
+        ]
+      }
+    },
+    "tuff_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:tuff"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["andesite_obtained"],
+    ["deepslate_obtained", "cobbled_deepslate_obtained"],
+    ["diorite_obtained"],
+    ["granite_obtained"],
+    ["stone_obtained", "cobblestone_obtained"],
+    ["tuff_obtained"]
+  ]
+}

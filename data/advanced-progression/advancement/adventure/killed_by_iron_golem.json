@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/summon_iron_golem",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.killed_by_iron_golem"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.killed_by_iron_golem.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_by_iron_golem": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["killed_by_iron_golem"]
+  ]
+}

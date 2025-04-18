@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.rename_mob"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.rename_mob.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mob_renamed": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:name_tag"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["mob_renamed"]
+  ]
+}

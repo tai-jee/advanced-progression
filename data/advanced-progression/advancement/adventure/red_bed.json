@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.red_bed"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.red_bed.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_conditions_met": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": ["minecraft:red_bed"]
+            },
+            "position": {
+              "feet": true
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": ["minecraft:carved_pumpkin"]
+            },
+            "mainhand": {
+              "items": ["minecraft:bread"]
+            }
+          }
+        }
+      }
+    }
+
+  },
+  "requirements": [
+    [
+      "all_conditions_met"
+    ]
+  ]
+}

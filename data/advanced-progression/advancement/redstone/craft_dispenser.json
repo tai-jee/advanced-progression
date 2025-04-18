@@ -1,0 +1,29 @@
+{
+  "parent": "advanced-progression:redstone/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.craft_dispenser"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.craft_dispenser.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dispenser_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dispenser"
+      }
+    }
+  },
+  "requirements": [
+    ["dispenser_crafted"]
+  ]
+}

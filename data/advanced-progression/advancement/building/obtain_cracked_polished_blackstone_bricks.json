@@ -1,0 +1,33 @@
+{
+  "parent": "advanced-progression:building/obtain_stonecutter",
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.obtain_cracked_polished_blackstone_bricks"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.obtain_cracked_polished_blackstone_bricks.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cracked_polished_blackstone_bricks_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:cracked_polished_blackstone_bricks"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["cracked_polished_blackstone_bricks_obtained"]
+  ]
+}
