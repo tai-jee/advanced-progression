@@ -19,9 +19,9 @@
     "sign_placed": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "items": [
+        "block": [
           {
-            "tag": "#minecraft:signs"
+            "blocks": "#minecraft:signs"
           }
         ]
       }
