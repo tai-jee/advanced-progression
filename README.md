@@ -24,7 +24,7 @@ Advanced Progression attempts to bring a wide variety of advancements for every 
 Advanced Progression supports: 
 - 🇺🇸 American English
 - 🇬🇧 British English
-- 🇳🇱 Dutch _(Nederlands)_
+- 🇳🇱 Dutch _(Nederlands)_ - partial
 
 ## Thanks to
 - sonnydoggy for providing the Dutch translations
