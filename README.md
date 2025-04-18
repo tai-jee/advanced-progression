@@ -24,7 +24,9 @@ Advanced Progression attempts to bring a wide variety of advancements for every 
 Advanced Progression supports: 
 - 🇺🇸 American English
 - 🇬🇧 British English
-- 🇳🇱 Dutch _(Nederlands)_ - partial
+- 🇳🇱 Nederlands*
+
+###### Languages marked with an asterisk (\*) are unfinished, and some strings will fall back to American English
 
 ## Thanks to
 - sonnydoggy for providing the Dutch translations
