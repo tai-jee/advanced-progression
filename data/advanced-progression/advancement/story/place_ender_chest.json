@@ -1,0 +1,73 @@
+{
+  "parent": "minecraft:story/form_obsidian",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.place_ender_chest"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.place_ender_chest.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ec_placed_in_overworld": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:ender_chest"
+              },
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "ec_placed_in_nether": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:ender_chest"
+              },
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    },
+    "ec_placed_in_end": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:ender_chest"
+              },
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["ec_placed_in_overworld"],
+    ["ec_placed_in_nether"],
+    ["ec_placed_in_end"]
+  ]
+}
