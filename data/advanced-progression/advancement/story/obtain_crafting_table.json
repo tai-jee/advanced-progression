@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.crafting_table"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.crafting_table.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafting_table_obtained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:crafting_table"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["crafting_table_obtained"]
+  ]
+}
