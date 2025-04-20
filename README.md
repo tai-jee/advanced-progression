@@ -10,7 +10,7 @@ No other mods are required, and **the core gameplay remains the same with Advanc
 ---
 
 ## Advancements
-Advanced Progression attempts to bring a wide variety of advancements for every kind of playstyle, including some slightly silly challenges.
+Advanced Progression attempts to bring a wide variety of advancements for every kind of playstyle, including some slightly silly challenges. Here are a few of them:
 - **The Advancement With The Longest Name In The Entire Game**  
   Obtain the item with the longest name in Minecraft
 
