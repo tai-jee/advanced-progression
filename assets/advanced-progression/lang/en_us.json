@@ -19,6 +19,8 @@
   "advancement.advanced-progression.enter_all_village_types.desc": "Visit every kind of Village",
   "advancement.advanced-progression.enter_village": "Nice Place You Got There",
   "advancement.advanced-progression.enter_village.desc": "Step foot in a Village",
+  "advancement.advanced-progression.kill_a_mob": "Combat",
+  "advancement.advanced-progression.kill_a_mob.desc": "Defend yourself",
   "advancement.advanced-progression.kill_creeper": "Bomb Defused",
   "advancement.advanced-progression.kill_creeper.desc": "Kill a Creeper before it explodes",
   "advancement.advanced-progression.kill_wolf": "You Monster",
@@ -64,7 +66,5 @@
   "advancement.advanced-progression.shear_snow_golem": "Peekaboo!",
   "advancement.advanced-progression.shear_snow_golem.desc": "Use Shears on a Snow Golem - I don't §othink§r it hurts him...",
   "advancement.advanced-progression.use_redstone_switch": "What Does This Do?",
-  "advancement.advanced-progression.use_redstone_switch.desc": "Interact with a Lever or Button",
-  "advancement.advanced-progression.kill_a_mob": "Combat",
-  "advancement.advanced-progression.kill_a_mob.desc": "Defend yourself"
+  "advancement.advanced-progression.use_redstone_switch.desc": "Interact with a Lever or Button"
 }
