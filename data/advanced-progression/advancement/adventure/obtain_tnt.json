@@ -1,5 +1,5 @@
 {
-  "parent": "advanced-progression:adventure/kill_creeper",
+  "parent": "minecraft:adventure/root",
   "display": {
     "icon": {
       "id": "minecraft:tnt"
