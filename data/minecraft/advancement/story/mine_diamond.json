@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/iron_tools",
+  "parent": "advanced-progression:story/reach_deepslate",
   "criteria": {
     "diamond": {
       "conditions": {
