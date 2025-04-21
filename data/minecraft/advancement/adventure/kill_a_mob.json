@@ -1,5 +1,20 @@
 {
-  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.kill_a_mob"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.kill_a_mob.desc"
+    },
+    "background": "minecraft:block/cobblestone",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
   "criteria": {
     "minecraft:blaze": {
       "conditions": {
@@ -518,18 +533,6 @@
         ]
       },
       "trigger": "minecraft:player_killed_entity"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.adventure.kill_a_mob.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:iron_sword"
-    },
-    "title": {
-      "translate": "advancements.adventure.kill_a_mob.title"
     }
   },
   "requirements": [
