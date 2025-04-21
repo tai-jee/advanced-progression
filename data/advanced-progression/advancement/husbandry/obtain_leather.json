@@ -5,10 +5,10 @@
       "id": "minecraft:leather"
     },
     "title": {
-      "translate": "advancement.adv-adv.obtain_leather"
+      "translate": "advancement.advanced-progression.obtain_leather"
     },
     "description": {
-      "translate": "advancement.adv-adv.obtain_leather.desc"
+      "translate": "advancement.advanced-progression.obtain_leather.desc"
     },
     "frame": "task",
     "show_toast": true,
