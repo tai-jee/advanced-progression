@@ -1,14 +1,14 @@
 {
-  "parent": "minecraft:story/mine_diamond",
+  "parent": "minecraft:story/iron_tools",
   "display": {
     "icon": {
-      "id": "minecraft:bedrock"
+      "id": "minecraft:deepslate"
     },
     "title": {
-      "translate": "advancement.advanced-progression.reach_bedrock"
+      "translate": "advancement.advanced-progression.reach_deepslate"
     },
     "description": {
-      "translate": "advancement.advanced-progression.reach_bedrock.desc"
+      "translate": "advancement.advanced-progression.reach_deepslate.desc"
     },
     "frame": "task",
     "show_toast": true,
@@ -24,7 +24,7 @@
             "dimension": "minecraft:overworld",
             "position": {
               "y": {
-                "max": -60
+                "max": 4
               }
             }
           }
