@@ -34,5 +34,5 @@ Advanced Progression supports:
 ###### Languages marked with an asterisk (\*) are unfinished, and some strings will fall back to American English
 
 ## Thanks to
-- sonnydoggy for providing the Dutch translations
-- Cylixr for inspiring some of the advancements from their mod, [Advancement Unlocked](https://modrinth.com/mod/advancementunlocked)
+- **sonnydoggy** for providing the Dutch translations
+- **Cylixr** and **limesplatus** for inspiring some of the advancements from their mods, [Advancement Unlocked](https://modrinth.com/mod/advancementunlocked) and [Refined Advancements](https://modrinth.com/datapack/refined-advancements/) respectively
