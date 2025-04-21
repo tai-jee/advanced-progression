@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/summon_iron_golem",
+  "parent": "minecraft:adventure/kill_a_mob",
   "display": {
     "icon": {
       "id": "minecraft:iron_block"
