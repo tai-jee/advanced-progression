@@ -15,8 +15,6 @@
   "advancement.advanced-progression.crafting_table.desc": "Make a Crafting Table",
   "advancement.advanced-progression.drink_potion": "Needs Sugar",
   "advancement.advanced-progression.drink_potion.desc": "Drink a potion",
-  "advancement.advanced-progression.place_ender_chest": "Cloud Storage",
-  "advancement.advanced-progression.place_ender_chest.desc": "Use Ender Chests to transport items between all three dimensions",
   "advancement.advanced-progression.enter_all_village_types": "Around the World",
   "advancement.advanced-progression.enter_all_village_types.desc": "Visit every kind of Village",
   "advancement.advanced-progression.enter_village": "Nice Place You Got There",
@@ -51,10 +49,14 @@
   "advancement.advanced-progression.obtain_tnt.desc": "Obtain TNT",
   "advancement.advanced-progression.obtain_water_bucket": "Temperate Stuff",
   "advancement.advanced-progression.obtain_water_bucket.desc": "Fill a Bucket with Water",
+  "advancement.advanced-progression.place_ender_chest": "Cloud Storage",
+  "advancement.advanced-progression.place_ender_chest.desc": "Use Ender Chests to transport items between all three dimensions",
   "advancement.advanced-progression.place_sign": "It's a Sign!",
   "advancement.advanced-progression.place_sign.desc": "Place a Sign",
   "advancement.advanced-progression.reach_bedrock": "Rock Bottom",
   "advancement.advanced-progression.reach_bedrock.desc": "Reach Bedrock in the Overworld",
+  "advancement.advanced-progression.reach_deepslate": "Dig Deep",
+  "advancement.advanced-progression.reach_deepslate.desc": "Reach the Deepslate layer in the Overworld",
   "advancement.advanced-progression.redstone_root": "Redstone",
   "advancement.advanced-progression.redstone_root.desc": "It's really quite simple",
   "advancement.advanced-progression.rename_mob": "Great, Now You're Attached",
@@ -62,5 +64,7 @@
   "advancement.advanced-progression.shear_snow_golem": "Peekaboo!",
   "advancement.advanced-progression.shear_snow_golem.desc": "Use Shears on a Snow Golem - I don't §othink§r it hurts him...",
   "advancement.advanced-progression.use_redstone_switch": "What Does This Do?",
-  "advancement.advanced-progression.use_redstone_switch.desc": "Interact with a Lever or Button"
+  "advancement.advanced-progression.use_redstone_switch.desc": "Interact with a Lever or Button",
+  "advancement.advanced-progression.kill_a_mob": "Combat",
+  "advancement.advanced-progression.kill_a_mob.desc": ""
 }
