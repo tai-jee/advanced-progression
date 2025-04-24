@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_heart"
+    },
+    "title": {
+      "translate": "advancement.advanced-progression.kill_creaking"
+    },
+    "description": {
+      "translate": "advancement.advanced-progression.kill_creaking.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "creaking_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creaking"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["creaking_killed"]
+  ]
+}
