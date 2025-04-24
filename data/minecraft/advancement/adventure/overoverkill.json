@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/minecraft_trials_edition",
+  "parent": "advanced-progression:combat/obtain_mace",
   "criteria": {
     "overoverkill": {
       "conditions": {
